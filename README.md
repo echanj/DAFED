@@ -1,6 +1,13 @@
 # DAFED
 
+Author: Eric J. Chan
 
+Date(repo created):  2/3/2023
+Date(began coding): ~ 15/5/2018
+
+Description:
+
+ note- you need a python 2.7 environment to run these 
  Cute benchmark implementations of the driven adiabatic free
  energy dynamics (AFED) and just adiabatic free energy dynamics (AFED) 
  on 2D- double well potential using a Langevin thermostat.
