@@ -307,7 +307,7 @@ my_d0=5.0
 my_a=1.0
 my_k=1.0
 my_lamb= 2.878   # if I set this to zero I will decouple x and y
-my_max_time =  200 # 2000 # 1000
+my_max_time =  2000 # 2000 # 1000
 initial_position_x = 0.0
 initial_position_y = 0.0
 initial_velocity_x = 0.0
@@ -349,7 +349,7 @@ axes[0, 0].plot(times,x_positions,marker='.',label='x-position',linestyle='',mar
 # axes[0, 0].plot(times,x_velocities,marker='',label='x-velocity',linestyle='-')
 # axes[0, 0].plot(times,y_velocities,marker='',label='y-velocity',linestyle='-')
 axes[0, 0].set_xlabel('time')
-axes[0, 0].legend(loc=2,prop={'size':6})
+axes[0, 0].legend(loc=2,prop={'size':16})
 
 
 # draw contour for the energy 
